@@ -1,0 +1,42 @@
+body{
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  background-image: url('src/assets/hero.svg');
+  background-repeat: no-repeat;
+  background-position: top -90px right -460px;
+  background-attachment:local;
+}
+
+footer{
+  display: flexbox;
+  background-color: #E7ECFF;
+  min-width: 100%;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items: center;
+  min-height: 216px;
+  min-width: 100%;
+  div.flex-item{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    min-width: 77%;
+    a{
+      text-decoration: none;
+    }
+  }
+}
+
+hr{
+  width: 1170px;
+}
+
+a{
+  color:#505F98;
+  font-size: 14px;
+}
